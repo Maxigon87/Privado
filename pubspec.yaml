@@ -1,0 +1,20 @@
+name: volume_booster_app
+description: "Aplicación Flutter que reproduce un sonido al iniciarse y sube el volumen del sistema en Windows."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.36
+  win32: ^5.5.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/startup.wav
